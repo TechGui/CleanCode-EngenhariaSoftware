@@ -1,0 +1,33 @@
+[
+  {
+    "nome": "DOOM: The Dark Ages",
+    "desenvolvedora": "Id Software",
+    "genero": "Ação",
+    "anoLancamento": 2025,
+    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIU6R8LK6sIi0-BE-dXrCQnu3ky44dK_5Og&s",
+    "votoConfirmacao": 0,
+    "voto": 0,
+    "email": []
+  },
+  {
+    "nome": "Tekken 8",
+    "desenvolvedora": "Bandai Namco",
+    "genero": "Luta",
+    "anoLancamento": 2024,
+    "foto": "https://cdn11.bigcommerce.com/s-xs1cevxe43/images/stencil/760x760/products/2821/13379/tekken-8__00646.1696464547.jpg?c=2",
+    "votoConfirmacao": 0,
+    "voto": 0,
+    "email": []
+  },
+  {
+    "nome": "Star Wars: Outlaws",
+    "desenvolvedora": "Ubisoft",
+    "genero": "Ação/Aventura",
+    "anoLancamento": 2024,
+    "foto": "https://pbs.twimg.com/media/GCr_nnBXoAEkKqe.jpg",
+    "votoConfirmacao": 0,
+    "voto": 0,
+    "email": []
+  }
+
+]

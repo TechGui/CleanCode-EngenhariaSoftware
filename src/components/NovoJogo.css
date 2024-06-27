@@ -1,0 +1,30 @@
+label {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    width: 130px;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 14px;  
+  }
+  
+  h3.lista {
+    margin-bottom: 50px;
+  }
+  
+  input[type=submit] {
+    cursor: pointer;
+  }
+
+  .sinopse {
+    vertical-align: top;
+  }
+
+  .cadastra__jogo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    color: black;
+  }

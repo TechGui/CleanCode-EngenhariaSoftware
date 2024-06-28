@@ -1,0 +1,21 @@
+/* Guilherme da Rosa Silva - DRY (Don't Repeat Yourself) / Variaveis para diminuir repetições dos arquivos .css do projeto. */
+ /* Serão usadas variáveis padrões para estender às outras e facilitar a praticidade de manutenção. */
+:root {
+    --fonte-principal: Helvetica, Arial, sans-serif;
+    --cor-fundo: black;
+    --cor-branca: white;
+    --cor-cinza: gray;
+    --cor-verde: rgba(30, 204, 7, 0.877);
+    --cor-azul-claro: rgb(147, 202, 247);
+    --cor-cinza-escuro: #2b2b2b;
+    --cor-borda: #303030;
+    --cor-botao-fundo: rgb(31, 31, 31);
+    --cor-rotulo: black;
+    --border-radius-padrao: 5px;
+    --padding-botao: 8px;
+    --font-size-botao: 12px;
+    --font-weight-bold: bold;
+    --font-size-small: small;
+    --box-shadow: 0 0.3px 5px rgba(119, 119, 119, 0.979);
+  }
+  

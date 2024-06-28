@@ -1,7 +1,9 @@
+@import '.././variaveis.css';
+
 .grid-item {
   display: flex;
-  border: 2px solid #2b2b2b;
-  border-radius: 8px;
+  border: 2px solid var(--cor-cinza-escuro);
+  border-radius: var(--border-radius-padrao);
   margin: 6px;
 }
 
@@ -16,11 +18,11 @@ h3 {
 }
 
 .genero {
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
 }
 
 .anoLancamento {
-  font-size: small;
+  font-size: var(--font-size-small);
 }
 
 .novidade {
@@ -28,34 +30,34 @@ h3 {
 }
 
 button {
-  padding: 8px;
-  font-size: 12px;
-  color: white;
-  background-color: rgba(30, 204, 7, 0.877);
-  font-weight: bold;
+  padding: var(--padding-botao);
+  font-size: var(--font-size-botao);
+  color: var(--cor-branca);
+  background-color: var(--cor-verde);
+  font-weight: var(--font-weight-bold);
   border: 0;
-  border-radius: 5px;
+  border-radius: var(--border-radius-padrao);
   cursor: pointer;
 }
 
 .comentario {
-  font-size: small;
-  color: gray;
+  font-size: var(--font-size-small);
+  color: var(--cor-cinza);
 }
 
 .confirmacao {
-  color: rgb(147, 202, 247);
+  color: var(--cor-azul-claro);
   width: 80%;
 }
 
 .votos {
   font-size: 14px;
-  color: gray;
+  color: var(--cor-cinza);
 }
 
 .botao_ver-emails {
-  background-color: rgb(31, 31, 31);
-  box-shadow: 0 0.3px 5px rgba(119, 119, 119, 0.979);
+  background-color: var(--cor-botao-fundo);
+  box-shadow: var(--box-shadow);
 }
 
 .lista_descricao {
@@ -64,7 +66,6 @@ button {
 
 .lista_descricao p {
   margin: 13px 0;
-
 }
 
 .votacao_detalhes {

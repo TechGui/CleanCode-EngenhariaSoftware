@@ -1,8 +1,9 @@
-:root {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: black;
-  color: white;
+@import './variaveis.css';
 
+:root {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo);
+  color: var(--cor-branca);
 }
 
 .container {
@@ -11,7 +12,6 @@
   grid-template-columns: 1fr;
   margin: 0 auto;
   padding: 10px;
-
 }
 
 .grid-container {
@@ -25,8 +25,8 @@
 .lista-novo {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #303030;
-  border-radius: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--border-radius-padrao);
   padding: 12px;
 }
 

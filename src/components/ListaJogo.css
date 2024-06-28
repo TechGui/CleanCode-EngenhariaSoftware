@@ -2,8 +2,7 @@
   display: flex;
   border: 2px solid #2b2b2b;
   border-radius: 8px;
-  padding: 12px;
-  margin: 4px;
+  margin: 6px;
 }
 
 .foto {
@@ -25,7 +24,7 @@ h3 {
 }
 
 .novidade {
-  width: 40px;
+  width: 37px;
 }
 
 button {
@@ -47,4 +46,29 @@ button {
 .confirmacao {
   color: rgb(147, 202, 247);
   width: 80%;
+}
+
+.votos {
+  font-size: 14px;
+  color: gray;
+}
+
+.botao_ver-emails {
+  background-color: rgb(31, 31, 31);
+  box-shadow: 0 0.3px 5px rgba(119, 119, 119, 0.979);
+}
+
+.lista_descricao {
+  margin-top: 10px;
+}
+
+.lista_descricao p {
+  margin: 13px 0;
+
+}
+
+.votacao_detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
 }

@@ -58,7 +58,7 @@ function ListaJogo({jogo, jogos, setJogos}) {
   return (
     <div className="grid-item">
       <img src={jogo.foto} alt="jogo" className='foto'/>
-      <div>
+      <div className='lista_descricao'>
         <h3>{jogo.nome}</h3>
         <p className='desenvolvedora'>{jogo.desenvolvedora}</p>
         <p className='genero'>{jogo.genero}</p>
@@ -67,9 +67,9 @@ function ListaJogo({jogo, jogos, setJogos}) {
         {jogo.votoConfirmacao === 0 ?
             <img src="./novo.png" alt="Novidade" className='novidade'/>
          :
-          <div>
-            <p><button onClick={mostraEmails}>Ver detalhes...</button></p>
-            <p>Quantidade de votos: {jogo.voto} </p>
+          <div className='votacao_detalhes'>
+            <p className='botaoemai'><button className='botao_ver-emails' onClick={mostraEmails}>Ver detalhes...</button></p>
+            <p className='votos'>{jogo.voto} votos </p>
           </div>  
         }        
       </div>

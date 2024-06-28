@@ -16,7 +16,7 @@
 
 .grid-container {
   display: grid;
-  column-gap: 20px;
+  column-gap: 10px;
   grid-template-columns: auto auto auto;
   padding: 10px;
   margin-top: 20px;
@@ -28,6 +28,10 @@
   border: 1px solid #303030;
   border-radius: 8px;
   padding: 12px;
+}
+
+.lista-novo h1 {
+  font-size: 28px;
 }
 
 .bt-novo {

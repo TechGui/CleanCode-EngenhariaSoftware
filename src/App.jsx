@@ -41,6 +41,8 @@ function App() {
         <Modal open={openNovoJogo} onClose={() => setOpenNovoJogo(false)} center>
           <NovoJogo jogos={jogos} setJogos={setJogos} />
         </Modal>
+        
+    
         <Modal open={openRanking} onClose={() => setOpenRanking(false)} center>
           <h2 className ="titulo-ranking">Ranking dos Jogos</h2>
           <div className="ranking-container">

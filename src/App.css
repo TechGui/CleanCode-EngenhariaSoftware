@@ -39,3 +39,31 @@
   height: 46px;
   font-size: 14px;
 }
+
+.lista-novo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bt-novo, .bt-ranking {
+  margin-left: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+.ranking-container {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+}
+
+.ranking-item {
+  padding: 18px;
+  border-bottom: 1px solid #e6dddd;
+  color: rgb(0, 106, 7);
+  
+}
+.titulo-ranking{
+  color: #000000;
+}

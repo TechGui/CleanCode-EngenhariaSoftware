@@ -1,0 +1,13 @@
+/* components/RankingModal.css */
+.ranking-container {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+  }
+  
+  .ranking-item {
+    padding: 18px;
+    border-bottom: 1px solid #e6dddd;
+    color: aqua;
+  }
+  
